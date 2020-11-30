@@ -1,0 +1,1593 @@
+{
+    "nodos4":{
+        "A": {
+            "nombre":"A", 
+            "vecinos":{
+                "B":{"distancia":12, "nombre":"B"},
+                "C":{"distancia":30, "nombre":"C"},
+                "D":{"distancia":42, "nombre":"D"}         
+            },
+            "inicial": true
+        },
+
+        "B": {
+            "nombre":"B", 
+            "vecinos":{
+                "A":{"distancia":12, "nombre":"A"},
+                "C":{"distancia":34, "nombre":"C"},
+                "D":{"distancia":35, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "C": {
+            "nombre":"C", 
+            "vecinos":{
+                "B":{"distancia":34, "nombre":"B"},
+                "A":{"distancia":30, "nombre":"A"},
+                "D":{"distancia":20, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "D": {
+            "nombre":"D", 
+            "vecinos":{
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":20, "nombre":"C"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        }
+    }
+,
+
+    "nodos6":{
+        "A": {
+            "nombre":"A", 
+            "vecinos":{
+                "B":{"distancia":12, "nombre":"B"},
+                "C":{"distancia":30, "nombre":"C"},
+                "D":{"distancia":42, "nombre":"D"},
+                "F":{"distancia":62, "nombre":"F"},
+                "E":{"distancia":42, "nombre":"E"}     
+            },
+            "inicial": true
+        },
+
+        "B": {
+            "nombre":"B", 
+            "vecinos":{
+                "A":{"distancia":12, "nombre":"A"},
+                "E":{"distancia":35, "nombre":"E"},
+                "C":{"distancia":34, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "D":{"distancia":35, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "C": {
+            "nombre":"C", 
+            "vecinos":{
+                "B":{"distancia":34, "nombre":"B"},
+                "E":{"distancia":35, "nombre":"E"},
+                "A":{"distancia":30, "nombre":"A"},
+                "F":{"distancia":62, "nombre":"F"},
+                "D":{"distancia":20, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "D": {
+            "nombre":"D", 
+            "vecinos":{
+                "B":{"distancia":35, "nombre":"B"},
+                "E":{"distancia":35, "nombre":"E"},
+                "C":{"distancia":20, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "E": {
+            "nombre":"E", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "F": {
+            "nombre":"F", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "E":{"distancia":63, "nombre":"E"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        }
+    }
+    ,
+
+    "nodos8":{
+        "A": {
+            "nombre":"A", 
+            "vecinos":{
+                "B":{"distancia":12, "nombre":"B"},
+                "C":{"distancia":30, "nombre":"C"},
+                "D":{"distancia":42, "nombre":"D"},
+                "F":{"distancia":62, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "G":{"distancia":25, "nombre":"G"},
+                "E":{"distancia":42, "nombre":"E"}     
+            },
+            "inicial": true
+        },
+
+        "B": {
+            "nombre":"B", 
+            "vecinos":{
+                "A":{"distancia":12, "nombre":"A"},
+                "E":{"distancia":35, "nombre":"E"},
+                "C":{"distancia":34, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "G":{"distancia":25, "nombre":"G"},
+                "D":{"distancia":35, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "C": {
+            "nombre":"C", 
+            "vecinos":{
+                "B":{"distancia":34, "nombre":"B"},
+                "E":{"distancia":35, "nombre":"E"},
+                "A":{"distancia":30, "nombre":"A"},
+                "F":{"distancia":62, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "G":{"distancia":25, "nombre":"G"},
+                "D":{"distancia":20, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "D": {
+            "nombre":"D", 
+            "vecinos":{
+                "B":{"distancia":35, "nombre":"B"},
+                "E":{"distancia":35, "nombre":"E"},
+                "C":{"distancia":20, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "G":{"distancia":25, "nombre":"G"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "E": {
+            "nombre":"E", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "F":{"distancia":62, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "G":{"distancia":25, "nombre":"G"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "F": {
+            "nombre":"F", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "G":{"distancia":65, "nombre":"G"},
+                "H":{"distancia":65, "nombre":"H"},
+                "E":{"distancia":63, "nombre":"E"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "G": {
+            "nombre":"G", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "F":{"distancia":65, "nombre":"F"},
+                "H":{"distancia":65, "nombre":"H"},
+                "E":{"distancia":63, "nombre":"E"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "H": {
+            "nombre":"H", 
+            "vecinos":{
+                "D":{"distancia":35, "nombre":"D"},
+                "B":{"distancia":35, "nombre":"B"},
+                "C":{"distancia":35, "nombre":"C"},
+                "G":{"distancia":65, "nombre":"G"},
+                "F":{"distancia":65, "nombre":"F"},
+                "E":{"distancia":63, "nombre":"E"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        }
+    },
+
+    "nodos10":{
+        "A": {
+            "nombre":"A", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"}     
+            },
+            "inicial": true
+        },
+
+        "B": {
+            "nombre":"B", 
+            "vecinos":{
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "A":{"distancia":72, "nombre":"A"},
+                "C":{"distancia":43, "nombre":"C"},
+                "D":{"distancia":52, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "C": {
+            "nombre":"C", 
+            "vecinos":{
+                "F":{"distancia":39, "nombre":"F"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "B":{"distancia":43, "nombre":"B"},
+                "A":{"distancia":30, "nombre":"A"},
+                "H":{"distancia":53, "nombre":"H"},
+                "G":{"distancia":35, "nombre":"G"},
+                "D":{"distancia":45, "nombre":"D"}
+            },
+            "inicial": false
+        },
+
+        "D": {
+            "nombre":"D", 
+            "vecinos":{
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "B":{"distancia":52, "nombre":"B"},
+                "E":{"distancia":60, "nombre":"E"},
+                "C":{"distancia":45, "nombre":"C"},
+                "F":{"distancia":21, "nombre":"F"},
+                "G":{"distancia":33, "nombre":"G"},
+                "A":{"distancia":39, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "E": {
+            "nombre":"E", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "D":{"distancia":60, "nombre":"D"},
+                "F":{"distancia":73, "nombre":"F"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "F": {
+            "nombre":"F", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "H":{"distancia":39, "nombre":"H"},
+                "M":{"distancia":39, "nombre":"M"},
+                "D":{"distancia":21, "nombre":"D"},
+                "K":{"distancia":21, "nombre":"K"},
+                "G":{"distancia":95, "nombre":"G"},
+                "E":{"distancia":73, "nombre":"E"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "G": {
+            "nombre":"G", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "D":{"distancia":33, "nombre":"D"},
+                "K":{"distancia":19, "nombre":"K"},
+                "C":{"distancia":35, "nombre":"C"},
+                "F":{"distancia":95, "nombre":"F"},
+                "H":{"distancia":61, "nombre":"H"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "H": {
+            "nombre":"H", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "K":{"distancia":39, "nombre":"K"},
+                "E":{"distancia":28, "nombre":"E"},
+                "C":{"distancia":53, "nombre":"C"},
+                "G":{"distancia":61, "nombre":"G"},
+                "M":{"distancia":25, "nombre":"M"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "K": {
+            "nombre":"K", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "H":{"distancia":39, "nombre":"H"},
+                "E":{"distancia":28, "nombre":"E"},
+                "F":{"distancia":21, "nombre":"F"},
+                "G":{"distancia":19, "nombre":"G"},
+                "M":{"distancia":81, "nombre":"M"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+
+        "M": {
+            "nombre":"M", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        }
+
+    },
+
+    "nodos30":{
+        "A": {
+            "nombre":"A", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "E":{"distancia":28, "nombre":"E"}     
+            },
+            "inicial": true
+        },
+    
+        "B": {
+            "nombre":"B", 
+            "vecinos":{
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "A":{"distancia":72, "nombre":"A"},
+                "C":{"distancia":43, "nombre":"C"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "D":{"distancia":52, "nombre":"D"}
+            },
+            "inicial": false
+        },
+    
+        "C": {
+            "nombre":"C", 
+            "vecinos":{
+                "F":{"distancia":39, "nombre":"F"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "B":{"distancia":43, "nombre":"B"},
+                "A":{"distancia":30, "nombre":"A"},
+                "H":{"distancia":53, "nombre":"H"},
+                "G":{"distancia":35, "nombre":"G"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "D":{"distancia":45, "nombre":"D"}
+            },
+            "inicial": false
+        },
+    
+        "D": {
+            "nombre":"D", 
+            "vecinos":{
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "B":{"distancia":52, "nombre":"B"},
+                "E":{"distancia":60, "nombre":"E"},
+                "C":{"distancia":45, "nombre":"C"},
+                "F":{"distancia":21, "nombre":"F"},
+                "G":{"distancia":33, "nombre":"G"},
+                "N":{"distancia":78, "nombre":"N"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":39, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "E": {
+            "nombre":"E", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "G":{"distancia":39, "nombre":"G"},
+                "H":{"distancia":39, "nombre":"H"},
+                "K":{"distancia":39, "nombre":"K"},
+                "M":{"distancia":39, "nombre":"M"},
+                "D":{"distancia":60, "nombre":"D"},
+                "F":{"distancia":73, "nombre":"F"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "F": {
+            "nombre":"F", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "H":{"distancia":39, "nombre":"H"},
+                "M":{"distancia":39, "nombre":"M"},
+                "D":{"distancia":21, "nombre":"D"},
+                "K":{"distancia":21, "nombre":"K"},
+                "G":{"distancia":95, "nombre":"G"},
+                "E":{"distancia":73, "nombre":"E"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "G": {
+            "nombre":"G", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "M":{"distancia":39, "nombre":"M"},
+                "E":{"distancia":28, "nombre":"E"},
+                "D":{"distancia":33, "nombre":"D"},
+                "K":{"distancia":19, "nombre":"K"},
+                "C":{"distancia":35, "nombre":"C"},
+                "F":{"distancia":95, "nombre":"F"},
+                "H":{"distancia":61, "nombre":"H"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "H": {
+            "nombre":"H", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "K":{"distancia":39, "nombre":"K"},
+                "E":{"distancia":28, "nombre":"E"},
+                "C":{"distancia":53, "nombre":"C"},
+                "G":{"distancia":61, "nombre":"G"},
+                "M":{"distancia":25, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "K": {
+            "nombre":"K", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "H":{"distancia":39, "nombre":"H"},
+                "E":{"distancia":28, "nombre":"E"},
+                "F":{"distancia":21, "nombre":"F"},
+                "G":{"distancia":19, "nombre":"G"},
+                "N":{"distancia":78, "nombre":"N"},
+                "M":{"distancia":81, "nombre":"M"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "M": {
+            "nombre":"M", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "N":{"distancia":78, "nombre":"N"},
+                "K":{"distancia":81, "nombre":"K"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "N": {
+            "nombre":"N", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "O": {
+            "nombre":"O", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "P": {
+            "nombre":"P", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "Q": {
+            "nombre":"Q", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "R":{"distancia":78, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "R": {
+            "nombre":"R", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "T": {
+            "nombre":"T", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "S": {
+            "nombre":"S", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "U": {
+            "nombre":"U", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "V": {
+            "nombre":"V", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "X": {
+            "nombre":"X", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "A1":{"distancia":43, "nombre":"A1"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+    
+        "A1": {
+            "nombre":"A1", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A2": {
+            "nombre":"A2", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A3": {
+            "nombre":"A3", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A4": {
+            "nombre":"A4", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A5": {
+            "nombre":"A5", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A6": {
+            "nombre":"A6", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A7": {
+            "nombre":"A7", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A8": {
+            "nombre":"A8", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A9": {
+            "nombre":"A9", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A10":{"distancia":64, "nombre":"A10"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        },
+    
+        "A10": {
+            "nombre":"A10", 
+            "vecinos":{
+                "B":{"distancia":72, "nombre":"B"},
+                "C":{"distancia":39, "nombre":"C"},
+                "D":{"distancia":39, "nombre":"D"},
+                "F":{"distancia":39, "nombre":"F"},
+                "G":{"distancia":39, "nombre":"G"},
+                "E":{"distancia":28, "nombre":"E"},
+                "H":{"distancia":25, "nombre":"H"},
+                "K":{"distancia":81, "nombre":"K"},
+                "M":{"distancia":78, "nombre":"M"},
+                "N":{"distancia":78, "nombre":"N"},
+                "O":{"distancia":78, "nombre":"O"},
+                "P":{"distancia":78, "nombre":"P"},
+                "Q":{"distancia":78, "nombre":"Q"},
+                "R":{"distancia":64, "nombre":"R"},
+                "T":{"distancia":64, "nombre":"T"},
+                "S":{"distancia":64, "nombre":"S"},
+                "U":{"distancia":64, "nombre":"U"},
+                "V":{"distancia":64, "nombre":"V"},
+                "X":{"distancia":64, "nombre":"X"},
+                "A1":{"distancia":64, "nombre":"A1"},
+                "A2":{"distancia":64, "nombre":"A2"},
+                "A3":{"distancia":64, "nombre":"A3"},
+                "A4":{"distancia":64, "nombre":"A4"},
+                "A5":{"distancia":64, "nombre":"A5"},
+                "A6":{"distancia":64, "nombre":"A6"},
+                "A7":{"distancia":64, "nombre":"A7"},
+                "A8":{"distancia":64, "nombre":"A8"},
+                "A9":{"distancia":64, "nombre":"A9"},
+                "A":{"distancia":42, "nombre":"A"}
+            },
+            "inicial": false
+        } 
+    }   ,
+
+    "G1":{
+        "A":{
+            "nombre":"A", 
+            "vertices": ["B", "C"]          
+        },
+
+        "B":{
+            "nombre":"B", 
+            "vertices": ["A", "C"]          
+        },
+
+        "C":{
+            "nombre":"C", 
+            "vertices": ["A", "B"]          
+        }
+    },
+
+    "G2":{
+        "A":{
+            "nombre":"A", 
+            "vertices": ["C", "D"]          
+        },
+
+        "B":{
+            "nombre":"B", 
+            "vertices": ["E", "C"]          
+        },
+
+        "C":{
+            "nombre":"C", 
+            "vertices": ["A", "B", "D", "E"]          
+        },
+
+        "D":{
+            "nombre":"D", 
+            "vertices": ["A", "C"]          
+        },
+
+        "E":{
+            "nombre":"E", 
+            "vertices": ["B", "C"]          
+        }
+    },
+
+    "G3":{
+        "A":{
+            "nombre":"A", 
+            "vertices": ["B","C", "D"]          
+        },
+
+        "B":{
+            "nombre":"B", 
+            "vertices": ["A", "C", "E"]          
+        },
+
+        "C":{
+            "nombre":"C", 
+            "vertices": ["A", "B", "D", "E"]          
+        },
+
+        "D":{
+            "nombre":"D", 
+            "vertices": ["A", "C", "E"]          
+        },
+
+        "E":{
+            "nombre":"E", 
+            "vertices": ["B", "C", "D"]          
+        }
+    },
+
+    "G4":{
+        "A":{
+            "nombre":"A", 
+            "vertices": ["B","G"]          
+        },
+
+        "B":{
+            "nombre":"B", 
+            "vertices": ["A", "H"]       
+        },
+
+        "C":{
+            "nombre":"C", 
+            "vertices": ["D", "E"]
+        },
+
+        "D":{
+            "nombre":"D", 
+            "vertices": ["B", "C", "F"]
+        },
+
+        "E":{
+            "nombre":"E", 
+            "vertices": ["C", "F", "G"]
+        },
+
+        "F":{
+            "nombre":"F", 
+            "vertices": ["D", "E"]
+        },
+
+        "G":{
+            "nombre":"G", 
+            "vertices": ["A", "H"]       
+        },
+
+        "H":{
+            "nombre":"H", 
+            "vertices": ["B", "G"]       
+        }
+    }
+}
